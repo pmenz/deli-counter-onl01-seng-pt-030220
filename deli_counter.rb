@@ -8,7 +8,7 @@ def line(katz_deli)
        str << " #{i}. #{person}"
      end
    end
-puts str current_line
+
 end
 
 def take_a_number(katz_deli, new_customer)
