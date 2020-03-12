@@ -1,6 +1,7 @@
 def line(katz_deli)
     if katz_deli.empty?
     puts "The line is currently empty."
+    return
     else
      str="the line is currently"
      deli.each.with_index(1) do|person,i|
