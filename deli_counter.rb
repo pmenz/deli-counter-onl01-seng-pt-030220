@@ -4,7 +4,7 @@ def line(katz_deli)
     return
     else
      str="the line is currently"
-     deli.each.with_index(1) do|person,i|
+     katz_deli.each.with_index(1) do|person,i|
        str << " #{i}. #{person}"
      end
    end
